@@ -250,7 +250,6 @@ PRODUCT_PACKAGES += \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
-    TurboPrebuilt \
     Velvet \
     WallpaperEffect \
     WeatherPixelPrebuilt_24D1 \
