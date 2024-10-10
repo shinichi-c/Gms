@@ -190,23 +190,10 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
     vendor/gms/common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
 
-# Recorder
-ifeq ($(TARGET_SUPPORTS_GOOGLE_RECORDER),true)
-PRODUCT_PACKAGES += \
-    RecorderPrebuilt_619037745
-endif
-
 # arcore
 ifeq ($(TARGET_INCLUDE_STOCK_ARCORE),true)
 PRODUCT_PACKAGES += \
     arcore-1.42
-endif
-
-# Live Wallpapers
-ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt \
-    PixelWallpapers2024
 endif
 
 PRODUCT_PACKAGES += \
