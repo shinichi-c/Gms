@@ -230,12 +230,10 @@ PRODUCT_PACKAGES += \
     LocationHistoryPrebuilt \
     MarkupGoogle_v2 \
     ModuleMetadataGoogle \
-    NgaResources \
     Photos \
     PixelThemesStub \
     PixelThemesStub2022_and_newer \
     PrebuiltDeskClockGoogle_76004981 \
-    PrebuiltGmail \
     SoundAmplifierPrebuilt_v4.7.638126989 \
     SoundPickerPrebuilt_31000232 \
     SwitchAccessPrebuilt_1.15.0.629986523 \
