@@ -269,7 +269,6 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
     TurboPrebuilt \
-    Velvet \
     WallpaperEffect \
     WeatherPixelPrebuilt_24D1 \
     WellbeingPrebuilt \
