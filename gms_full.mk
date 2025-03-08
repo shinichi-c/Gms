@@ -25,8 +25,7 @@ endif
 
 # product/app
 PRODUCT_PACKAGES += \
-    CalculatorGooglePrebuilt 
-    CarrierMetrics \
+    CarrierMetrics
     Chrome-Stub \
     DevicePolicyPrebuilt \
     GoogleContacts \
